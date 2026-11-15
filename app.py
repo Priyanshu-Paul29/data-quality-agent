@@ -19,6 +19,12 @@ else:
     df = pd.read_csv("mock_data.csv")
     st.sidebar.info("Using default mock data. Upload a file above to test your own data.")
 
+# --- 0. RAW DATASET ---
+st.subheader("📄 Raw Dataset")
+st.dataframe(df, use_container_width=True)
+
+st.divider()
+
 # --- DASHBOARD METRICS ---
 st.subheader("📊 Data Overview")
 col1, col2, col3, col4 = st.columns(4)
