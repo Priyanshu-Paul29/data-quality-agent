@@ -1,5 +1,5 @@
 Student_ID,Timestamp,Status,Scanner_Location
-101,2026-09-28 08:00:00,Present,Gate_A
+101,2026-09-28 09:00:00,Present,Gate_A
 102,2026-09-28 08:05:00,Present,Gate_A
 101,2026-09-28 08:00:00,Present,Gate_A
 103,,Present,Gate_B
